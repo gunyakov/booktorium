@@ -1,0 +1,43 @@
+/* # Social Icons # */
+#socialicons{ position:relative; text-align:left;  display:inline-block; }
+#socialicons > a:first-child{ margin-left:0;}
+#socialicons>a{ margin-left:5px; margin-right:0; display:inline-block; width:36px; height:36px; float:left; overflow:hidden; position:relative;}
+#socialicons>a span { width:36px; height:36px; overflow:hidden; position:absolute; display:none; }
+#socialicons>a span.da-animate { -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
+/* # Social icons List # */
+#social_facebook{ background:url(../images/facebook.png)/*tpa=http://html.crunchpress.com/book-store/images/facebook.png*/ no-repeat}
+#social_facebook span{background:url(../images/facebook.png)/*tpa=http://html.crunchpress.com/book-store/images/facebook.png*/ no-repeat 0 -36px; }
+#social_twitter{ background:url(../images/twitter0.png)/*tpa=http://html.crunchpress.com/book-store/images/twitter0.png*/ no-repeat  }
+#social_twitter span{ background:url(../images/twitter0.png)/*tpa=http://html.crunchpress.com/book-store/images/twitter0.png*/ no-repeat 0 -36px; }
+#social_dribbble{ background:url(../images/dribbble.png)/*tpa=http://html.crunchpress.com/book-store/images/dribbble.png*/ no-repeat  }
+#social_dribbble span{ background:url(../images/dribbble.png)/*tpa=http://html.crunchpress.com/book-store/images/dribbble.png*/ no-repeat 0 -36px; }
+#social_flickr{ background:url(../images/flickr.png)/*tpa=http://html.crunchpress.com/book-store/images/flickr.png*/ no-repeat  }
+#social_flickr span{ background:url(../images/sociallickr.png)/*tpa=http://html.crunchpress.com/book-store/images/sociallickr.png*/ no-repeat 0 -36px; }
+#social_forst{ background:url(../images/socialorst.png)/*tpa=http://html.crunchpress.com/book-store/images/socialorst.png*/ no-repeat }
+#social_forst span{ background:url(../images/socialforst.png)/*tpa=http://html.crunchpress.com/book-store/images/socialforst.png*/ no-repeat 0 -36px;  }
+#social_github{ background:url(../images/socialgithub.png)/*tpa=http://html.crunchpress.com/book-store/images/socialgithub.png*/ no-repeat }
+#social_github span{ background:url(../images/socialgithub.png)/*tpa=http://html.crunchpress.com/book-store/images/socialgithub.png*/ no-repeat 0 -36px;  }
+#social_linkedin{ background:url(../images/linkedin.png)/*tpa=http://html.crunchpress.com/book-store/images/linkedin.png*/ no-repeat  }
+#social_linkedin span{ background:url(../images/linkedin.png)/*tpa=http://html.crunchpress.com/book-store/images/linkedin.png*/ no-repeat 0 -36px; }
+#social_pinterest{ background:url(../images/pinterest.png)/*tpa=http://html.crunchpress.com/book-store/images/pinterest.png*/ no-repeat }
+#social_pinterest span{ background:url(../images/pinterest.png)/*tpa=http://html.crunchpress.com/book-store/images/pinterest.png*/ no-repeat 0 -36px;  }
+#social_instagram{ background:url(../images/instagram.png)/*tpa=http://html.crunchpress.com/book-store/images/instagram.png*/ no-repeat }
+#social_instagram span{ background:url(../images/instagram.png) no-repeat 0 -36px;  }
+#social_rss{ background:url(../images/rss.png) no-repeat  }
+#social_rss span{ background:url(../images/rss.png) no-repeat 0 -36px; }
+#social_vimeo{ background:url(../images/vimeo.png) no-repeat  }
+#social_vimeo span{ background:url(../images/vimeo.png) no-repeat 0 -36px; }
+#social_youtube{ background:url(../images/youtube.png) no-repeat  }
+#social_youtube span{ background:url(../images/youtube.png) no-repeat 0 -36px; }
+#social_trumblr{ background:url(../images/trumblr.png) no-repeat }
+#social_trumblr span{ background:url(../images/trumblr.png) no-repeat 0 -36px;  }
+#social_google_plus{ background:url(../images/google_p.png) no-repeat  }
+#social_google_plus span{ background:url(../images/google_p.png) no-repeat 0 -36px; }
+/* # Animation on Social Icons **/
+.da-slideFromTop {left: 0px;top: -100%;}
+.da-slideFromBottom {left: 0px;top: 100%;}
+.da-slideFromLeft {top: 0px; left: -100%;}
+.da-slideFromRight {top: 0px;left: 100%;}
+/* Final state classes: */
+.da-slideTop {top: 0px;}
+.da-slideLeft {left: 0px;}

@@ -1,0 +1,603 @@
+/** CSS Table of Content 
+	-  	Import Css Files		 											Line 	42 to 44
+    -  	Getting the new tags to behave 										Line 	48 to 74
+    -  	form defaults 									  					Line 	74 to 80
+    -   Links defaults style												Line 	83 to 90
+    -   Start main Header css												Line 	92 to 104
+    -   Start Main menu css													Line 	105 to 120
+    -	Start Top Nav Bar Css												Line    122 to 148
+    -	Start WellCome Msg Css												Line    151 to 155
+    -   Start Sale Bar Css													Line    157 to 169
+    -   Start Featured Books Css											Line    171 to 187
+    -   Start Slider2 for Best Sellers										Line    189 to 202
+    -   Start Featured Authore Section										Line    204 to 226
+    -   Testimonial + Blog													Line    228 to 261
+    -   Start Footer 														Line    265 to 296
+    -   Start Main Footer													Line    298 to 304
+    -   Start Side Bar Styling												Line    306 to 332
+    -   Start Blog Slider Styling											Line    334 to 345
+    -   Start Blog Post Styling												Line    347 to 367
+    -   Start Blog Detail Styling											Line    369 to 373
+    -   Start Sort list Section												Line    376 to 393
+    -   Start Book Detail Section											Line    395 to 414
+    -   Start Related Books Section											Line    416 to 430
+    -   Start Reviews Section												Line    432 to 451
+    -   Start Check Method Section											Line    432 to 471
+ 
+    -   Start Billing Info Section											Line    480 to 491
+    -   Start Payments Info Section											Line    494 to 498
+    -   Start Contact Page Section											Line    501 to 504
+    -   Start Order Recieved Section										Line    506 to 511
+    -   Start Grid View Section												Line    513 to 518
+    -   Start List View Section												Line    520 to 526
+    -   Start Cart Section													Line    527 to 544
+    -   Start Price Range Style												Line    546 to 548
+    -   Start Main Slider Style												Line    550 to 565
+    -   Start About Section													Line    567 to 569
+    -   Start 404 Page Styling												Line    571 to 574
+    -   Start Short Codes Styling											Line    576 to 602
+
+**/
+/* Import Css Files */
+@import url("bxslider.css")/*tpa=http://html.crunchpress.com/book-store/css/bxslider.css*/;
+@import url("social.css")/*tpa=http://html.crunchpress.com/book-store/css/social.css*/;
+@import url("range-slider.css")/*tpa=http://html.crunchpress.com/book-store/css/range-slider.css*/;
+/* Import Css Files */
+
+/* Getting the new tags to behave */
+article,
+aside,
+audio,
+canvas,
+command,
+datalist,
+details,
+embed,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+keygen,
+meter,
+nav,
+output,
+progress,
+section,
+source,
+video { display:block; margin:0; }
+mark,
+rp,
+rt,
+ruby,
+summary,
+time { display:inline }
+/* Getting the new tags to behave */
+
+/* Start form defaults */
+input,
+select,
+textarea { font-family:Arial, Helvetica, sans-serif; font-size:1em; vertical-align:middle; font-weight:normal; color:#393939; margin:0; padding:0; }
+/* End form defaults */
+
+/* Start Links defaults style */
+a { text-decoration:none; outline:none; }
+a:hover { transition: width 1s; -moz-transition: 1s; /* Firefox 4 */ -webkit-transition: 1s; /* Safari and Chrome */ -o-transition: 1s; /* Opera */ text-decoration:underline; }
+a img { border:0; }
+a img:hover { opacity:0.6; transition: width 1s; -moz-transition: 1s; /* Firefox 4 */ -webkit-transition: 1s; /* Safari and Chrome */ -o-transition: 1s; /* Opera */ }
+.first { margin-left:0 !important; }
+.m-bottom { margin:0 0 70px !important; }
+/* End Links defaults style */
+
+/* Start main Header css */
+#main-header { background:url(../images/header-bg.jpg)/*tpa=http://html.crunchpress.com/book-store/images/header-bg.jpg*/ repeat; padding:40px 0 0; margin:0 0 75px; }
+#logo { margin:0; float:left; }
+#logo a { display:block; height:100%; }
+#main-header input[type="text"] { font-size:13px; color:#bdbdbd; height:26px; float:left; margin:0; }
+input[type="submit"] { border:0; font-size:14px; color:#fff; padding:10px 20px; float:left; background:#98b827; cursor:pointer; transition: width 1s; -moz-transition: 1s; /* Firefox 4 */ -webkit-transition: 1s; /* Safari and Chrome */ -o-transition: 1s; /* Opera */ }
+input[type="submit"]:hover { background:#6a8706; }
+.search-bar { float:right; }
+.top-nav2 { overflow:hidden; text-align:right; }
+.top-nav2 li:first-child { margin:0; padding:0; background:none; }
+.top-nav2 li { display:inline-block; background:url(../images/nav-sep.png)/*tpa=http://html.crunchpress.com/book-store/images/nav-sep.png*/ left no-repeat; padding-left:15px; margin-left:9px; line-height:45px; }
+.top-nav2 li a { font-weight:bold; color:#737373; }
+.top-nav2 li a:hover { color:#000; }
+/* Start Main menu css */
+#main-header #nav { background:rgba(37, 36, 36); background:rgba(37, 36, 36, 0.1); border-top: 1px solid rgba(37, 36, 36, 0.1); }
+.navbar { margin:0 auto; max-width:1170px; }
+#main-header .navbar-inverse .navbar-inner { background:none; border:0; -webkit-box-shadow: inset 0 0 0 rgba(255, 255, 255, .0), 0 0 0 rgba(0, 0, 0, .0); -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .2), 0 0 0 rgba(0, 0, 0, .0); box-shadow: inset 0 1px 0 rgba(255, 255, 255, .2), 0 0 0 rgba(0, 0, 0, .0); padding:0; }
+#main-header .navbar .nav > li:first-child { background:none; }
+#main-header .navbar .nav > li { background: url(../images/main-nav-sep.png)/*tpa=http://html.crunchpress.com/book-store/images/main-nav-sep.png*/ no-repeat left center; font-size:16px; padding-left:2px; }
+#main-header .navbar-inverse .brand,
+#main-header .navbar-inverse .nav > li > a { color: #3c3c3c; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.0); border-bottom: 3px solid transparent; }
+#main-header .navbar-inverse .nav > li > a:hover { color:#000; background-color:rgba(37, 36, 36); background-color:rgba(37, 36, 36, 0.1); border-bottom: 3px solid #98B827; }
+#main-header .dropdown-menu { left:0; right:auto; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; }
+#main-header .navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
+#main-header .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
+#main-header .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle { background:rgba(37, 36, 36); background:rgba(37, 36, 36, 0.1); border-bottom: 3px solid #98B827; }
+#main-header .dropdown-menu > li:first-child { background:none; }
+#main-header .dropdown-menu > li { background:url(../images/sub-nav-sep.jpg)/*tpa=http://html.crunchpress.com/book-store/images/sub-nav-sep.jpg*/ repeat-x top center; }
+/* End Main menu css */
+
+/* Start Top Nav Bar Css */
+.top-nav-bar { background:#242424; color:#fff; }
+.top-nav-bar ul { margin:0; padding:0; list-style:none; float:left; }
+.top-nav-bar .row-fluid [class*="span"] {
+margin-bottom:0;
+}
+.top-nav li { float:left; margin-right:1px; line-height:50px; }
+.top-nav li a { padding:0 12px; display:block; color:#fff; }
+.top-nav li a:hover,
+.top-nav li a.active { background:#98b827; color:#fff; text-decoration:none; }
+.e-commerce-list { position:relative; }
+.e-commerce-list li:first-child { margin:0; padding:0; background:none; }
+.e-commerce-list li { float:left; background:url(../images/top-nav-sep.png)/*tpa=http://html.crunchpress.com/book-store/images/top-nav-sep.png*/ left no-repeat; padding-left:15px; margin-left:15px; line-height:45px; }
+.e-commerce-list li a { font-weight:bold; color:#98b827; }
+.e-commerce-list li a:hover { color:#98b827; }
+.e-commerce-list li.p-category a { padding:0 2px; color:#fff; }
+.e-commerce-list li.p-category a:hover { color:#98b827; text-decoration:none; }
+.c-btn { background:#fff; padding: 0 18px 0 10px; position: absolute; right: 0; text-align: center; width: 97px; }
+.c-btn .btn { background:none; border:0; padding-right:10px; margin-bottom:10px; -webkit-box-shadow: inset 0 0 0 rgba(255, 255, 255, .0), 0 0 0 rgba(0, 0, 0, .0); -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .2), 0 0 0 rgba(0, 0, 0, .0); box-shadow: inset 0 1px 0 rgba(255, 255, 255, .2), 0 0 0 rgba(0, 0, 0, .0); }
+.c-btn .btn-mini .caret,
+.c-btn .btn-small .caret { margin-left:5px; }
+.cart-btn { background:url(../images/cart-icon.png)/*tpa=http://html.crunchpress.com/book-store/images/cart-icon.png*/ no-repeat left; padding-left:30px; display:inline-block; font-size:24px; line-height:41px; }
+.cart-btn:hover { text-decoration:none; }
+.btn-group ul li { padding:0; background:none; margin:0; float:none; }
+/* End Top Nav Bar Css */
+/* End main Header css */
+
+/* Start Content Css */
+
+/* Start WellCome Msg Css */
+.row-fluid [class*="span"].wellcome-msg {border-bottom:9px solid #809f14;background:#f7f6f6;padding:30px;line-height:28px;}
+.wellcome-msg h2 { margin:0 0 10px; color:#000; font-size:28px; }
+.wellcome-msg p { color:#98b827; margin:0; font-size:23px; line-height:23px; }
+/* End WellCome Msg Css */
+
+/* Start Sale Bar Css */
+.s-product { padding:14px 24px; border:1px solid #dee4e4; position:relative; }
+.s-product-det { float:left; width:70%; }
+.s-product-det h3 { color:#809f14; font-size:18px; margin:0 0 8px; line-height:18px; }
+.s-product-det p { color:#3d3d3d; line-height:16px; margin-bottom:8px; }
+.s-product-img { float:left; width:30%; }
+.rating-bar { display:block; margin:0 0 10px; }
+.rating-bar img { width:auto !important; }
+.cart-btn2 { background:url(../images/cart-icon.png)/*tpa=http://html.crunchpress.com/book-store/images/cart-icon.png*/ no-repeat; text-indent:-999px; width:31px; height:26px; overflow:hidden; float:left; margin-right:10px; }
+.cart-price { overflow:hidden; }
+.price { float: left; margin-top: 4px; padding-left: 10px; border-left:1px solid #ababab; font-size:20px; color:#000; }
+.sale-icon { background:url(../images/sale-icon.png)/*tpa=http://html.crunchpress.com/book-store/images/sale-icon.png*/ no-repeat; width:78px; height:78px; position:absolute; left:0; top:0; text-indent:-999px; overflow:hidden; }
+/* End Sale Bar Css */
+
+/* Start Featured Books Css */
+.heading-bar { border-bottom:1px solid #d9d9d9; border-top:1px solid #d9d9d9; padding:6px 0; margin:0 0 22px; position:relative; }
+.heading-bar h2 { margin:0; font-size:24px; color:#333; line-height:24px; }
+.heading-bar a{ font-size:18px;}
+.h-line { background:#98b827; width:30px; height:3px; position:absolute; left:0; bottom:-2px; }
+.features-books .bx-pager { display:none; }
+.features-books .bx-wrapper .bx-viewport { -moz-box-shadow: 0 0 0 #fff; -webkit-box-shadow: 0 0 0 #fff; box-shadow:0 0 0 #fff; border: solid #fff 0; background: transparent; }
+.features-books .slide { padding:18px; border:1px solid #e5e5e5; transition: width 1s; -moz-transition: 1s; /* Firefox 4 */ -webkit-transition: 1s; /* Safari and Chrome */ -o-transition: 1s; /* Opera */ }
+.features-books .slide:hover { background:#f9f9f9; border-color:#85a319; -moz-box-shadow: 0 0 7px #ccc; -webkit-box-shadow: 0 0 7px #ccc; box-shadow: 0 0 7px #ccc; }
+.features-books .slide .title { display:block; margin:0 0 5px; color:#000; font-size:12px; }
+.features-books .slide .title a { color:#000; }
+.features-books .slide img { margin:0 0 5px; }
+.features-books .pro-img { -moz-box-shadow:2px 2px 2px #4e4e4e; -webkit-box-shadow:2px 2px 2px #4e4e4e; box-shadow:2px 2px 2px #4e4e4e; width: 237px;}
+.features-books .bx-controls-direction { position: absolute; right: 44px; top: -46px; }
+.features-books .bx-wrapper .bx-prev { left: -17px; }
+.features-books .bx-wrapper .bx-next { right: -44px; }
+/* End Featured Books Css */
+
+/* Start Slider2 for Best Sellers */
+.best-sellers .bx-pager { display:none; }
+.best-sellers .bx-wrapper .bx-viewport { -moz-box-shadow: 0 0 0 #fff; -webkit-box-shadow: 0 0 0 #fff; box-shadow:0 0 0 #fff; border: solid #fff 0; background: transparent; }
+.best-sellers .slide { background:#f6f6f6; text-align:center; }
+.slide2-caption { padding:10px 14px; background:#809f14; overflow:hidden; font-family:Arial, Helvetica, sans-serif; }
+.slide2-caption .left { float:left; width:67%; text-align:left; }
+.slide2-caption .right { float:right; width:30%; }
+.slide2-caption .price { float:none; border:0; font-size:20px; padding:0; font-family:Calibri; margin:0 0 5px; display:block; }
+.slide2-caption .title { display:block; font-size:14px; }
+.slide2-caption .title a { color:#fff; }
+.slide2-caption .author-name { color:#010101; font-size:12px; }
+.slide2-caption .rating-bar { float:right; }
+.best-sellers .bx-controls-direction a { top:35%; }
+/* End Slider2 for Best Sellers */
+
+/* Start Featured Authore Section */
+.featured-author { margin-top:73px; background:#f8f8f8; border-top:7px solid #809f14; border-bottom:2px solid #809f14; position:relative; }
+.featured-author:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.author-img-holder { border:8px solid #809f14; left: 40px; position: absolute; top: -80px; -webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius:100%; z-index:100 }
+.author-img-holder img { -webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius:100%; }
+.author-img-holder img:hover { opacity: .9; -webkit-transform: scale(1.05, 1.07); -webkit-transition-timing-function: ease-out; -webkit-transition-duration: 250ms; -moz-transform: scale(1.05, 1.07); -moz-transition-timing-function: ease-out; -moz-transition-duration: 250ms; position: relative; z-index: 99; }
+.featured-author .left { width:57%; float:left; }
+.featured-author .right { width:35%; float:right; padding:22px; background:#f3f4f6; }
+.author-det-box { position:relative; }
+.author-det { padding:41px 0 17px 220px; overflow:hidden; }
+.author-det-box .title,
+.author-det-box .title2 { display:block; margin:0 0 5px; font-size:24px; }
+.author-det-box .title { color:#070707; }
+.author-det-box .title2 { color:#809f14; margin:0 0 20px; }
+.author-det-box .books-list { list-style:none; margin:0 0 0 -10px; }
+.author-det-box .books-list li { float:left; margin:0 0 10px 10px; }
+.current-book { float: left; margin-right: 20px; width: 57%; }
+.current-book .title { font-size:18px; margin:0 0 10px; display:block; }
+.current-book .title a { color:#2e2e2e; }
+.c-b-img { float: right; width: 108px; }
+.featured-author .ico-holder { position:absolute; bottom:30px; left:20px; text-align:center; width:180px; }
+.featured-author #socialicons > a { float:none; }
+/* End Featured Authore Section */
+
+/* Start Latest from the Blog */
+.blog-section .bx-wrapper { float: left; margin-top: 40px; }
+.blog-section { position:relative; }
+.blog-section .bx-wrapper .bx-viewport { -moz-box-shadow: 0 0 0 #fff; -webkit-box-shadow: 0 0 0 #fff; box-shadow:0 0 0 #fff; border: solid #fff 0; background: transparent; }
+.blog-section .bx-wrapper .bx-prev { left: -17px; }
+.blog-section .bx-wrapper .bx-next { right: -44px; }
+.blog-section .bx-controls-direction { position: absolute; right: 44px; top: -86px; }
+.blog-section .bx-wrapper .bx-pager { display:none; }
+.post-det { float: right; width: 49%; }
+.post-det h3 { margin:0 0 5px; font-size:18px; line-height:24px; }
+.post-det h3 a { color:#000; }
+.comments-num { display:block; margin:0 0 5px; }
+.post-det p { margin:0; font-size:12px; line-height:18px; }
+.post-img { float: left; margin-right: 5%; width: 45%; position:relative; }
+.post-date { position:absolute; top:0; right:1px; width:38px; height:48px; text-align:center; background:#809f14; color:#fff; }
+.post-date span { font-size:24px; display:block; }
+/* End Latest from the Blog */
+
+/* Start Testimonials Section */
+.testimonials .bx-wrapper .bx-viewport { -moz-box-shadow: 0 0 0 #fff; -webkit-box-shadow: 0 0 0 #fff; box-shadow:0 0 0 #fff; border: solid #fff 0; background: transparent; }
+.author-name-holder { background:url(../images/author-img-holder.png)/*tpa=http://html.crunchpress.com/book-store/images/author-img-holder.png*/ no-repeat; width:93px; height:98px; margin:0 auto 17px; text-align:center; }
+.author-name-holder img { -webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius: 100%; display: inline-block; margin: 10px 0 0; width: 78%; margin-bottom:18px; }
+.testimonials .title { text-align:center; font-size:18px; display:block; text-transform:uppercase; font-weight:normal; }
+.testimonials .title span { color:#a6cf42; display:block; }
+.testimonials p { background:url(../images/qouts-icon.png)/*tpa=http://html.crunchpress.com/book-store/images/qouts-icon.png*/ no-repeat top left; padding-top:50px; }
+.testimonials .bx-pager { display:none; }
+.testimonials .bx-wrapper .bx-controls-direction a { top:13%; }
+.testimonials .bx-wrapper .bx-prev { left: 30px; }
+.testimonials .bx-wrapper .bx-next { right:30px; }
+.testimonials .bx-wrapper .bx-prev { background: url(../images/controls1.png)/*tpa=http://html.crunchpress.com/book-store/images/controls1.png*/ no-repeat 0 -32px; }
+.testimonials .bx-wrapper .bx-next { background: url(../images/controls1.png)/*tpa=http://html.crunchpress.com/book-store/images/controls1.png*/ no-repeat -43px -32px; }
+.testimonials .bx-wrapper .bx-prev:hover { background-position: 0 0; }
+.testimonials .bx-wrapper .bx-next:hover { background-position: -43px 0; }
+/* End Testimonials Section */
+
+/* End Content Css */
+
+/* Start Footer Top 1 Css */
+.footer-top1 { background:url(../images/footer-top1.jpg)/*tpa=http://html.crunchpress.com/book-store/images/footer-top1.jpg*/ repeat; padding:57px 0; font-size:14px; }
+.footer-top1 h4 { font-size:30px; color:#333; margin:0 0 40px; }
+.tweets-list,
+.phon-list { margin:0; list-style:none; }
+.tweets-list li { margin:0 0 10px; }
+.phon-list { margin:0 0 20px; list-style:none; color:#809f14; }
+.mail-list a { color:#555; }
+.footer-top1 input[type="text"] { border:1px solid #dadada; width:95%; margin:0 0 20px; font-size:14px; color:#838383; font-family:Calibri; }
+.footer-top1 .sub-btn { font-size:18px; font-family:Calibri; font-weight:bold; background:#809f14; padding:6px 15px; float:right; color:#fff; border:0; cursor:pointer; }
+/* End Footer Top 1 Css */
+
+/* Start Footer Top 2 Css */
+.footer-top2 { background:url(../images/footer-2bg.jpg)/*tpa=http://html.crunchpress.com/book-store/images/footer-2bg.jpg*/ repeat; padding:0 0 10px; font-size:14px; border-top:4px solid #191919; }
+.footer-top2 h4 { font-size:30px; color:#f1f1f1; margin:0 0 20px; padding:0 0 20px; border-bottom:1px solid #ccc; }
+.social-ico-bar { overflow:hidden; background:url(../images/social-ico-bar-bg.jpg)/*tpa=http://html.crunchpress.com/book-store/images/social-ico-bar-bg.jpg*/; margin:0 0 40px; border-top:1px solid #434343; border-bottom:1px solid #434343; padding:9px 0; }
+.footer2-link { margin:0; float:right; list-style:none; }
+.footer2-link li first-child { margin:0; }
+.footer2-link li { margin:0 0 0 15px; float:left; line-height:30px; }
+.footer2-link li a { color:#fff; }
+.f2-pots-list { margin:0; list-style:none; }
+.f2-pots-list li { margin:0 0 28px; position:relative; padding:0 0 0 50px; }
+.f2-pots-list li a { color:#fff; }
+.footer-top2 .comments-num { color:#8d8d8d; }
+.post-date2 { background:#809F14; color: #fff; height: 30px; left: 0; line-height: 15px; padding: 4px 0; position: absolute; text-align: center; top: 0; width: 39px; }
+.f2-img-list { margin:0; list-style:none; margin-left:-10%; }
+.f2-img-list li { width:40%; margin:0 0 20px 10%; color:#000; float:left; }
+.f2-img-list li .left { float: left; margin-right: 14px; width: 60px; }
+.f2-img-list li .right { float:right; width:88px; }
+.f2-img-list li .right .title { display:block; }
+.f2-img-list li .right .title a { color:#fff; }
+/* End Footer Top 1 Css */
+
+/* Start Main Footer */
+#main-footer .social-ico-bar { margin:0; }
+#main-footer p { margin:0; color:#fff; }
+#main-footer p a { color:#fff; }
+#main-footer .row-fluid [class*="span"] {margin-bottom:0;line-height:30px;}
+.copy-right { text-align:right; }
+/* End Main Footer */
+
+/* Start Side Bar Styling */
+.side-holder { margin:0 0 35px; }
+.side-holder .title { color:#98b827; display:block; margin:0 0 5px; }
+.side-inner-holder { background:#fcfcfc; border:1px solid #e5e5e5; border-top:0; padding:16px; }
+.side-holder h2 { background:#98b827; font-size:20px; color:#fefefe; line-height:20px; padding:10px; margin:0; }
+.banner-ad img { width:100%; }
+.side-list { margin:0 0 10px; list-style:none; border-bottom:1px solid #e5e5e5; padding:0 0 10px; }
+.side-list li { margin:0 0 5px; padding-left:15px; background:url(../images/list-type.png)/*tpa=http://html.crunchpress.com/book-store/images/list-type.png*/ no-repeat left 5px; }
+.side-list li a { color:#000; }
+.r-img-title { margin:0 0 15px; overflow:hidden; }
+.r-img-title img { float:left; margin-right:10px; border:1px solid #dcdcdc; }
+.r-det-holder { float:left; width:150px; }
+.r-author { font-size:18px; display:block; font-weight:normal; }
+.r-author a { color:#2c2c2c; }
+.r-by { display:block; margin:0 0 5px; }
+.r-img-title .rating-bar img { border:0; }
+.r-post p { margin:0; font-size:12px; color:#000; }
+.r-type { font-size:12px; color:#98b827; display:block; margin:0 0 5px; }
+.r-author { font-size:12px; color:#000; display:block; }
+.r-post:first-child { margin:0; border-top:0; padding:0; }
+.r-post { border-top:1px dotted #dcdcdc; padding-top:10px; margin-top:13px; }
+.vote-btn { font-size:14px; font-weight:bold; background:#809f14; padding:6px 15px; display:inline-block; color:#fff; }
+.price-range { color:#000; }
+.poll-list { margin:0 0 20px; list-style:none; }
+.poll-list li { margin:0 0 5px; line-height:20px; }
+.poll-list input[type="radio"] { margin:0 5px 0 0; }
+/* End Side Bar Styling */
+
+/* Start Blog Slider Styling */
+.blog-sec-slider{ margin:0 0 35px;}
+.blog-sec-slider .slide img { width:100%; }
+.blog-sec-slider .bx-pager.bx-default-pager { display:none; }
+.blog-sec-slider .bx-wrapper .bx-viewport { -moz-box-shadow: 0 0 0 #fff; -webkit-box-shadow: 0 0 0 #fff; box-shadow:0 0 0 #fff; border: solid #fff 0; background: transparent; }
+.blog-sec-slider .bx-wrapper .bx-next { left:43px; }
+.blog-sec-slider .bx-controls-direction { bottom: 38px; left: 10px; position: absolute; }
+.blog-sec-slider .bx-wrapper .bx-prev { background: url(../images/controls2.png)/*tpa=http://html.crunchpress.com/book-store/images/controls2.png*/ no-repeat 0 -32px; }
+.blog-sec-slider .bx-wrapper .bx-next { background: url(../images/controls2.png)/*tpa=http://html.crunchpress.com/book-store/images/controls2.png*/ no-repeat -43px -32px; }
+.blog-sec-slider .bx-wrapper .bx-prev:hover { background-position: 0 0; }
+.blog-sec-slider .bx-wrapper .bx-next:hover { background-position: -43px 0; }
+/* End Blog Slider Styling */
+
+/* Start Blog Post Styling */
+.b-post{ margin:0 0 35px;}
+.b-post h3{ margin:0 0 20px; font-size:20px; line-height:20px; color:#090909;}
+.b-post p,
+.b-post-img{ margin:0 0 23px;}
+.b-post-img img{ width:100%;}
+.b-post-bottom{ padding:15px 0; overflow:hidden; border-bottom:1px solid #efefef; border-top:1px solid #efefef;}
+
+.post-nav{ float:left; margin:0; list-style:none; font-size:18px;}
+.post-nav li:first-child{ padding:0; background:none;}
+.post-nav li{ float:left; margin-right:15px; background:url(../images/post-nav-sep.png)/*tpa=http://html.crunchpress.com/book-store/images/post-nav-sep.png*/ no-repeat left; padding-left:20px;}
+.post-nav li a{ color:#323232;}
+
+.more-btn{ float:right; background:#98b827; padding:4px 14px; font-size:12px; color:#fff; border:0; text-transform:uppercase;}
+.more-btn:hover{ text-decoration:none;}
+.more-btn.left{ float:left; margin-right:10px;}
+
+.blog-footer{padding:10px 0;}
+.blog-footer .pagination{ margin:0; float:left;}
+.blog-footer .pagination a{ color:#000;}
+/* End Blog Post Styling */
+
+/* Start Blog Detail Styling */
+.blog-detail .b-post-bottom{ margin:0 0 20px;}
+.blog-detail i{ font-size:20px; margin-right:10px;}
+.blog-quote p{ color:#aaa;}
+.form-horizontal textarea{ max-width:60%; min-width:60%; min-height:150px; max-height:150px;}
+/* Start Blog Detail Styling */
+
+/* Start Sort list Section */
+.product_sort{overflow: hidden; padding: 10px 0 5px;}
+.product_sort #productsSortForm {float: left;}
+.product_view{float: right; list-style: none outside none; margin-top: 4px;}
+.product_view li{ float:left; margin-left:15px; overflow:hidden;}
+.product_view li a.grid-view{ background:url(../images/grid-icon.png)/*tpa=http://html.crunchpress.com/book-store/images/grid-icon.png*/ no-repeat top; width:25px; height:16px; text-indent:-999px; display:block;}
+.product_view li a.grid-view:hover{ background-position:bottom;}
+.product_view li a.list-view{ background:url(../images/list-icon.png)/*tpa=http://html.crunchpress.com/book-store/images/list-icon.png*/ no-repeat top; width:25px; height:16px; text-indent:-999px; display:block;}
+.product_view li a.list-view:hover{ background-position:bottom;}
+.product_view{ float:right;}
+.row-1{ border-bottom:1px solid #efefef; padding-bottom:7px; margin-bottom:7px; overflow:hidden;}
+.row-1 .left{ float:left; width:50%;}
+.row-1 .right{ float:right; width:50%; text-align:right;}
+.row-1 .right select{ width:50px; margin:0 10px;}
+.row-1 .s-title{ float:left; margin-right:10px; line-height:24px;}
+.row-1 .list-nav{ float:left;}
+.row-1 .list-nav select{ font-size: 13px; margin:0; color:#7f7f7f; height: 24px; padding: 2px; width: 100px; border:1px solid #cfcfcf;}
+/* End Sort list Section */
+
+/* Start Book Detail Section */
+.b-detail-holder{ border:1px solid #e5e5e5; overflow:hidden;}
+.title-holder{ overflow:hidden; background:#fafafa; border-bottom:1px solid #e5e5e5; padding:11px 11px 3px;}
+.title-holder h4{ margin:0;}
+.title-holder h4 i{color:#98b827;}
+.title-holder [class*="span"]{ margin:0 !important;}
+.book-d-nav{ text-align:right;}
+.book-d-nav ul{ margin:0; list-style:none;}
+.book-d-nav ul li{display:inline-block; margin-left:10px;}
+.book-d-nav ul li a{ color:#000;}
+.book-i-caption{ padding:15px; overflow:hidden; margin-bottom:50px;}
+.book-i-caption .title{color:#98b827; margin:0 0 15px; display:block; font-size:18px;}
+.comm-nav{ overflow:hidden; margin-top:50px;}
+.comm-nav .title2{ display:block; margin:0 0 5px;}
+.comm-nav ul{ margin:0; list-style:none; overflow:hidden;}
+.comm-nav ul li{ float:left; margin-right:10px;}
+.comm-nav ul li.b-price{ font-size:18px; color:#000;}
+.comm-nav ul li input[type="text"]{ width:60px;}
+.b-img-holder{border:1px solid #e5e5e5; padding:25px 10px; text-align:center;}
+/* End Book Detail Section */
+
+/* Start Related Books Section */
+.related-book {padding:15px;}
+.related-book .bx-pager { display:none; }
+.related-book .bx-wrapper .bx-viewport { -moz-box-shadow: 0 0 0 #fff; -webkit-box-shadow: 0 0 0 #fff; box-shadow:0 0 0 #fff; border: solid #fff 0; background: transparent; }
+.related-book .slide { padding:18px; border:1px solid #e5e5e5; transition: width 1s; -moz-transition: 1s; /* Firefox 4 */ -webkit-transition: 1s; /* Safari and Chrome */ -o-transition: 1s; /* Opera */ }
+.related-book .slide:hover { background:#f9f9f9; border-color:#85a319; -moz-box-shadow: 0 0 7px #ccc; -webkit-box-shadow: 0 0 7px #ccc; box-shadow: 0 0 7px #ccc; }
+.related-book .slide .title { display:block; margin:0 0 5px; color:#000; font-size:12px; }
+.related-book .slide .title a { color:#000; }
+.related-book .slide img { margin:0 0 5px; }
+.related-book .pro-img { -moz-box-shadow:2px 2px 2px #4e4e4e; -webkit-box-shadow:2px 2px 2px #4e4e4e; box-shadow:2px 2px 2px #4e4e4e; width: 237px;}
+.related-book .bx-controls-direction { position: absolute; right: 44px; top: -46px; }
+.related-book .bx-wrapper .bx-prev { left: -17px; }
+.related-book .bx-wrapper .bx-next { right: -44px; }
+.related-book .bx-wrapper{ max-width:100% !important;}
+/* End Related Books Section */
+
+/* Start Reviews Section */
+.reviews-section{ border-top:2px solid #98b827; overflow:hidden;}
+.left-sec{ float:left; width:35%;}
+.right-sec{ float:left; width:64.8%; border-left:1px solid #dcdcdc;}
+.right-sec.r-border{border-right:1px solid #dcdcdc;min-height: 400px; padding: 3%; width: 64%;}
+.r-title-bar{ background:#fafafa; padding:8px 10px; font-size:18px; color:#000; border-bottom:1px solid #dcdcdc; margin-bottom:20px;}
+.r-title-bar strong{ font-weight:normal;}
+.review-list{ list-style:none; margin:0; padding:0 20px; font-size:12px;}
+.review-list em{ display:block; margin:0 0 10px; color:#98b827; font-style:normal;}
+.review-list li{ margin:0 0 10px; padding:0 0 10px; border-bottom:1px dotted #dcdcdc;}
+.review-list li p{ margin:0; color:#000;}
+.grey-btn{ display:block; color:#fff; background:#292929; padding:6px 0; margin:10px 20px; text-align:center;}
+.grey-btn:hover{ text-decoration:none; background:#000; color:#fff;}
+.grey-btn.left-btn{ float:left; padding:6px 10px;}
+.review-f-list{ margin:0; list-style:none; padding:0 20px;}
+.review-f-list li{ margin:0 0 10px;}
+.review-f-list li textarea{ max-width:60%; min-width:60%; min-height:150px; max-height:150px;}
+.rating-list{ overflow:hidden; border-top:1px solid #e5e5e5; padding:10px 0;}
+.rating-box{ display:inline-block;}
+/* End Review form Section */
+
+/* Start Check Method Section */
+.check-method-left{ color:#000; border-right:1px solid #dcdcdc; padding-right:30px;}
+.green-t{ display:block; margin:0 0 10px; color:#98b827;}
+.form-horizontal .controls{ margin:0;}
+.form-horizontal .control-label{display: block; float: none; text-align: left;}
+.form-horizontal .control-group{ margin:0 0 5px;}
+.check-method-right input[type="text"]{ width:96%;}
+.checkout-holder{ border:1px solid #E5E5E5; overflow:hidden; margin-bottom:70px;}
+.checkout-holder .accordion-group{ border-left:0; border-top:0;}
+.checkout-holder .accordion{ margin:0;}
+.checkout-holder [class*="span"]{ margin-bottom:0 !important;}
+.review-list{ margin:0; list-style:none;}
+.review-list a{ color:#000; display:block;}
+.checkout-holder .row-fluid .span3{ width:25.6%;}
+
+/* End Check Method Section */
+
+/* Start Order Review Section */
+.btn-holder{ overflow:hidden;}
+.more-btn2{ float:left; background:#2a2a2a; padding:4px 14px; font-size:12px; color:#fff; border:0; text-transform:uppercase;}
+.more-btn2:hover{ text-decoration:none; background:#494949; color:#fff;}
+.accordion-inner tr{ border-bottom:1px dotted #dcdcdc; text-align:center;}
+.accordion-inner tr.heading-bar-table{ background:#7cad0f; border-top:5px solid #4f9716; color:#fff;}
+.accordion-inner.no-p{padding:0 ;}
+/* End Order Review Section */
+
+
+/* Start Billing Info Section */
+.billing-form{ margin:0; list-style:none;}
+.billing-form li{ overflow:hidden;}
+.billing-form li label{display: block; float: none; text-align: left;}
+.billing-form li .control-group{ float:left; margin-right:30px;}
+.billing-form li .controls{ margin:0 !important;}
+.billing-form li .control-group{ margin-bottom:10px !important;}
+.billing-form input[type="text"]{ width:275px;}
+.billing-form input[type="text"].address-field{ width:593px;}
+.billing-form select{ width:287px; font-size:12px;}
+.billing-form .green-t{ margin:10px 0 0;}
+.b-label{float: left !important; margin-right: 20px; margin-top: 10px !important;}
+/* Start Billing Info Section */
+
+/* Start Payments Info Section */
+.label-holder{ overflow:hidden;}
+.billing-form select.month-list{ float:left; width:60%;}
+.billing-form select.year-list{ float:right; width:30% ;}
+.w-extra{ width:287px;}
+/* End Payments Info Section */
+
+/* Start Contact Page Section */
+.map-holder{ margin:0 0 20px;}
+.c-form-holder .form-horizontal textarea{ max-width:95%; min-width:95%;}
+/* End Contact Page Section */
+
+/* Start Order Recieved Section */
+.order-list{ margin:0; list-style:none; padding:0 20px 20px;}
+.order-list li:first-child{ border-top:0; margin-top:0; padding-top:0;}
+.order-list li{ margin:10px 0 0; padding:10px 0 0; border-top:1px dotted #dcdcdc;}
+.order-list li span{color:#1e1e1e; font-size:18px;}
+/* End Order Recieved Section */
+
+/* Start Grid View Section */
+.grid-holder{ margin:0 0 20px;}
+.grid-holder img{ width:100%;}
+.grid-holder.features-books .pro-img { -moz-box-shadow:0 0 0 #4e4e4e; -webkit-box-shadow:0 0 0 #4e4e4e; box-shadow:0 0 0 #4e4e4e; width: 237px;}
+.grid-holder.features-books .slide .title a{ font-size:18px;}
+/* End Grid View Section */
+
+/* Start List View Section */
+.item-holder{ overflow:hidden; border-bottom:1px dotted #dcdcdc; margin-bottom:17px; color:#000;}
+.title-bar{ margin:0 0 10px;}
+.title-bar a{ font-size:18px; font-weight:bold;}
+.title-bar span{ display:block; font-weight:normal; color:#646464;}
+/* End List View Section */
+
+/* Start Cart Section */
+.cart-holder .heading-bar{ overflow:hidden;}
+.cart-holder .heading-bar h2{ float:left;}
+.cart-table-holder{ padding:40px; background:#f9f9f9; border:1px solid #efefef; margin-bottom:70px;}
+.product-detail{ border:1px solid #e5e5e5; color:#000;}
+.product-detail input[type="text"]{ width:30px; margin:0 30px; text-align:center;}
+.product-detail i{ font-size:18px;}
+.product-detail td{ border-right:1px solid #efefef;}
+.cart-option-box{ border:1px solid #e5e5e5; padding:20px; color:#000;}
+.cart-option-box i{color:#98b827; font-size:28px;}
+.cart-option-box h4{ text-transform:uppercase; font-size:24px;}
+.cart-option-box .more-btn{ float:none; font-size:16px;}
+.cart-option-box form{ margin:0;}
+.price-total{ text-align:center;}
+.large-f{ font-size:24px;}
+.total-payment{ margin:0 0 20px;}
+.price-total .more-btn{ margin:0 0 20px; display:inline-block;}
+/* End Cart Section */
+
+/* Start Price Range Style */
+.price-range input[type="text"]{ margin:0; border:0; background:transparent;-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -moz-box-shadow: inset 0 0 0  rgba(0, 0, 0, 0.075); box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.075);}
+/* End Price Range Style */
+
+/* Start Main Slider Style */
+.main-slider{ position:relative;}
+.slider-bottom{ max-width:938px; margin:0 auto; display:block;}
+.slider-bottom img{ width:100%;}
+.slide-inner{ padding:35px;}
+.book-holder img{ margin-bottom:10px; -moz-box-shadow:2px 2px 2px #414141; -webkit-box-shadow:2px 2px 2px #414141; box-shadow:2px 2px 2px #414141;}
+.slide-inner .cart-btn2 { background:url(../images/cart-icon2.png)/*tpa=http://html.crunchpress.com/book-store/images/cart-icon2.png*/ no-repeat; display:inline-block; float:none;}
+.slide-inner .price{ float:none; display:inline-block; border-left:1px solid #5a5a5a; font-size:24px;}
+.book-detail{ text-align:left;}
+.book-detail h2{ font-size:30px; color:#232323; margin:0 0 10px;}
+.book-detail .title{color:#98b827; font-size:20px; display: block; margin:0 0 10px;}
+.shop-btn{ background:url(../images/shop-btn.png)/*tpa=http://html.crunchpress.com/book-store/images/shop-btn.png*/ no-repeat; width:130px; height:42px; text-align:center; display:inline-block; line-height:40px; color:#fff; margin:25px 0 43px;}
+.cap-holder{ padding:50px 0 0;}
+.cap-holder a{ color:#fff; font-weight:bold; border-top:2px solid #fff; display:inline-block; padding:7px 0 0;}
+.cap-holder a:hover{ text-decoration:none;}
+/* End Main Slider Style */
+
+/* Start About Section */
+.content-img{ float:left; margin:0 15px 15px 0;}
+/* End About Section */
+
+/* Start 404 Page Styling */
+h2.heading-404{ font-size: 255px; margin: -30px 0 118px; text-align: center; line-height:208px; color:#4a4a4a;}
+h3.sub-heading-404{ font-size: 26px; text-align: center;}
+/* End 404 Page Styling */
+
+/* Start Short Codes Styling */
+.the-icons{ margin:0;}
+.the-icons li{ float: left; list-style:none; line-height: 25px; width: 25%;}
+/*----------- Drop Capes -----------*/
+.dropcap { background: #fcfcfc; color: #666; display: inline-block; float: left; font-size: 23px; font-weight: 600; height: 36px; line-height: 36px; margin: 0 7px 0 0; text-align: center; width: 36px; border: 1px solid #f6f6f6; font-family: 'AgencyFB-Bold'; }
+.dropcap.dark { background: #3a3a3a; color: #fff; }
+.dropcap.color { background: #98b827; color: #fff; }
+/*----------- End Drop Capes -----------*/
+
+
+/*----------- Dividers -----------*/
+.text-divider1 { border-top: 1px solid #CCCCCC; margin-bottom: 19px; }
+.text-divider2 { border-bottom: 1px solid #CCCCCC; color: #666666; display: block; margin-bottom: 19px; text-align: right; width: 100%; }
+.text-divider2:hover,
+.text-divider4:hover { color: #666666; text-decoration: none; }
+.text-divider3 { border-top: 1px dashed #CCCCCC; margin-bottom: 19px; }
+.text-divider4 { border-bottom: 1px dashed #CCCCCC; color: #666666; display: block; margin-bottom: 19px; text-align: right; width: 100%; }
+.text-divider5,
+.text-divider6 { border-bottom: 1px solid #CCCCCC; margin-bottom: 19px; width: 100%; }
+.text-divider5 span { display: block; float: left; height: 6px; width: 111px; }
+.text-divider6 span { display: block; float: right; height: 6px; width: 111px; }
+/*----------- End Dividers -----------*/
+
+/*----------- Icons Dividers -----------*/
+.the-icons { list-style: none outside none; margin-left: 0; }
+.the-icons li { float: left; line-height: 25px; width: 25%; }
+/*----------- End Icons Dividers -----------*/
+/* End Short Codes Styling */

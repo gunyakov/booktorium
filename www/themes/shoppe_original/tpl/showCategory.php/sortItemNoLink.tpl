@@ -1,0 +1,1 @@
+<li>{ITEM_NAME} ({ITEM_COUNT}) <a href="{ITEM_LINK}"><img src="{THEME_PATH}/images/no.png"></a></li>

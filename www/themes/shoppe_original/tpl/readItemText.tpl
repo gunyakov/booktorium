@@ -1,0 +1,1 @@
+<p align="justify">{READ_ITEM_CONTENT}</p>

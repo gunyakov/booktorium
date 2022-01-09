@@ -1,0 +1,1 @@
+<p><img src="{P_CONTENT}"></p>

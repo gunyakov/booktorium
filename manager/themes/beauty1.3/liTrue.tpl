@@ -1,0 +1,1 @@
+<icon class="icon-check icon-white"></icon>&nbsp;&nbsp;{LI_CONTENT}<br class="clearfix">
