@@ -1,4 +1,4 @@
-24.12.2024 - repo was closed. All new updates will be in new repo https://github.com/booktorium/
+24.12.2023 - repo was closed. All new updates will be in new repo https://github.com/booktorium/
 
 # BookTorium
 
