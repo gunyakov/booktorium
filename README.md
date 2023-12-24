@@ -1,3 +1,5 @@
+24.12.2024 - repo was closed. All new updates will be in new repo https://github.com/booktorium/
+
 # BookTorium
 
 ## PHP Engine for DJVU / PDF Online Library with OCR Futures
